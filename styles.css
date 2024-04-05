@@ -1,0 +1,118 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body {
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background: #a2d2ff;
+    color: #ffffff;
+    background: linear-gradient(lightskyblue,pink);
+}
+
+#gautam {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #EFB0C9;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+   
+}
+
+#bday-age {
+    padding:  5px 10px;
+    background: #EFB0C9;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+}
+
+#bday-date {
+    padding: 5px 10px;
+    background: #EFB0C9;
+    background: #EFB0C9;
+    margin: 0px;
+}
+
+.gift-img {
+    margin: 0 auto;
+    justify-content: center;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover ;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    
+}
+
+#gift-img-five {
+    
+    height: 200px;
+  
+}
+
+
+#gift-img-one:hover {
+    background-image: url("images/happy.gif");
+    
+}
+
+#gift-img-two:hover {
+    background-image: url("images/happyone.gif");
+  
+    
+}
+
+#gift-img-three:hover {
+    background-image: url("images/genius.gif");
+  
+    
+}
+
+#gift-img-four:hover {
+    background-image: url("images/superman.gif");
+  
+    
+}
+#gift-img-five:hover {
+    background-image: url("images/cheers.webp");
+    
+}
+
+#gift-img-six:hover {
+    background-image: url("images/raji.jpg");
+    
+}
+
+#gift-img-seven:hover {
+    background-image: url("images/amrita.jpg");
+    
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-header {
+    margin-bottom: 10;
+}
+
+.gift-hover {
+    margin-top: 0;
+}
+#footer {
+    margin: 30px 0px 30px 0px;
+}
+
+.family {
+    display: flex;
+    justify-content: space-evenly;
+}
